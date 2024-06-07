@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+    color: rgb(0, 0, 0);
+   background-color: rgba(255, 254, 254, 0.387);
+   
+
+}
+.divado{
+    display: flex;
+    width: 100%;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.281);
+   justify-content: space-evenly;
+   margin: auto;
+   justify-items: center;
+   margin: auto;
+}
+
+.seva{
+    width: 220px;
+    height: 240px;
+    background-color: rgba(255, 254, 254, 0.387);
+   margin: 0px 10px;
+   backdrop-filter: 7%;
+}
+
+.seva1{
+    width: 300px;
+    height: 240px;
+    background-color: rgba(255, 254, 254, 0.387);
+   margin: 0px 10px;
+   backdrop-filter: 7%;
+}
+
+.seva3{
+    width: 300px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.281);
+   margin: 0px 10px;
+}
+
+.container{
+    /* position: absolute; */
+flex-direction: column;
+    width: 100%;
+    height: 260px;
+    
+    justify-content: center;
+    align-items: center;
+    
+  
+
+
+}
+header{
+    width: 1100px;
+    height: 20px;
+
+}
+h1, h2, h3{
+    color: blue;
+}
+
+
+main{
+    width: 500px;
+    height: 600px;
+   
+    justify-content: center;
+ 
+/* float: right; */
+}
+
+
+.article1{
+    height: 500px;width: 230px;padding: 5px;
+   
+    float: left;
+}
+.article2{
+    height: 500px;width: 260px;padding: 5px;
+
+    float: right;
+}
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+#table{
+    width: 90%;
+    border-collapse: collapse;
+    table-layout:auto;
+    text-align: center;
+    margin: auto;
+   
+}
+#table thead{
+    background-color:rgb(153, 0, 71);
+    color: aliceblue;
+}
+#table tbody tr:nth-child(2n+1){
+    background-color: #ddd;
+}
+#table-body{
+    direction: ltr !important;
+   
+}
+
+
+
+
+.bismilah{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    text-justify: center;
+    justify-content: center;
+}
+
+#tablesumary{
+ 
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+th , td{
+    border: 1px solid black;
+    padding: 3px;
+    height: 20px;
+    vertical-align: middle;
+}
+.tasnimsaid1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.henry{
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.carlito{
+    background-color: aqua;
+}
+/* background-color: #ddd; */
+.flowers {
+    background-color: chartreuse;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.marker{
+    background-color: chartreuse;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;  
+}
+
+.lenght_dayss{
+    background-color: rgb(143, 191, 255) !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    padding: 5px !important;  
+}
+.textareas{
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    justify-items: center;
+}
+textarea{
+    justify-content: center;
+    justify-items: center;
+}
+
+#tablesumarry{
+    direction: rtl !important;
+}
+
+
+
+
+
+#select-container {
+  position: relative;
+  display: inline-block;
+}
+
+.select-box {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px;
+  border: 3px solid yellow;
+  border-radius: 4px;
+  background-color: #f9f7f9;
+  color: #433;
+  width: 300px; /* Adjust as needed */
+}
+
+/* Custom arrow icon (you can use an image or an SVG) */
+.select-box::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the dropdown options */
+.select-box option {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Hover effect for options */
+.select-box option:hover {
+ background-color: blue;	
+	
+}
+ 
+
+    .set7{
+
+  display: flex;
+  
+
+
+    }
+	
+	.sum11{
+    background: black;
+    color: aliceblue;
+    width: 150px;
+    text-align: center;
+    border: 1px solid cyan;
+    padding: 5px;
+    font-size: x-large;
+    
+    }
+    
